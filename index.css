@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./img/glaxy.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.yer {
+    margin: 50px 900px;
+    /* animation: yer_key 10s linear infinite;  */
+}
+
+.mars {
+    margin-left: 4000px;
+}
+
+.blue {
+    margin: 300px 2000px;
+}
+
+.yupiter {
+    margin-left: 3500px;
+}
+
+@keyframes yer_key {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.a {
+    animation: yer_key 6s linear infinite;
+}
+
+.sotuvchi {
+    margin-left: 2000px;
+}
+
+.car1 {
+    width: 400px;
+    animation: cars1 6s linear infinite;
+    position: absolute;
+    bottom: 700px;
+    margin-left: 5500px;
+}
+
+@keyframes cars1 {
+    to {
+        transform: translateX(-5900px);
+    }
+
+    10% {
+        transform: none;
+    }
+}
+
+.car2 {
+    width: 400px;
+    animation: cars2 8s linear infinite;
+    position: absolute;
+    top: 100px;
+    margin-left: 1000px;
+}
+
+@keyframes cars2 {
+
+    to {
+        transform: translateY(4000px);
+
+    }
+
+    60% {
+        transform: translateX(3500px);
+    }
+}
+
+.car3 {
+    width: 400px;
+    animation: cars3 5s linear infinite;
+    position: absolute;
+    top: 3000px;
+    margin-left: 1000px;
+}
+
+@keyframes cars3 {
+    to {
+        transform: translateX(1000px);
+    }
+
+    30% {
+        transform: translateY(-3000px);
+    }
+
+    20% {
+        transform: translateX(1000px);
+    }
+
+    /* to{
+        transform: translateY(1000px);
+    } */
+}
+
+.car4 {
+    width: 400px;
+    animation: cars4 5s linear infinite;
+    position: absolute;
+    top: 1000px;
+    margin-left: 4000px;
+}
+@keyframes cars4 {
+    to {
+        transform: translateX(1000px);
+    }
+
+    50% {
+        transform: translateY(-1000px);
+    }
+
+}
